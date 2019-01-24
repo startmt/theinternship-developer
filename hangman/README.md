@@ -2,12 +2,16 @@
   this is Hangman game in command line
   
 ## Build
-Windows
  1. get python 3.0 or above
- 2. go to directory hangman in your cmd
- 3. write this command and enjoy
+ 2. go to directory hangman in your cmd or terminal
+ 
+for Windows
 ```zsh
 $ py -3 hangman.py
+```
+for Mac and linux
+```zsh
+$ python3 hangman.py
 ```
 ## Contact
   - ชื่อ : ชาญศิลป์ ทองคำ
