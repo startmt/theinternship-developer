@@ -49,6 +49,9 @@ def menu():
 
 
 def play(category):
+    '''
+    this is function to play this game 
+    '''
     #Setup game
     life = 10
     score = 0
