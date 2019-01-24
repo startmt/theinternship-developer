@@ -1,0 +1,12 @@
+{
+    "name" : "Overwatch game",
+    "questions" : {
+        "Widowmaker": "One shot one kill",
+        "McCree": "It's high noon",
+        "Genji" : "Ryujin no ken wo kurae!", 
+        "Hanzo" : "Ryu ga waga teki wo kurau!", 
+        "Reinhardt" : "Hammer DOWN!",
+        "Zarya" : "Ogon' po gotovnosti!",
+        "Mercy" : "Heroes never die!",
+        "Reaper" : "Die! Die! Die!"}
+}

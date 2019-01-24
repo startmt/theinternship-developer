@@ -1,0 +1,9 @@
+{
+    "name" : "Football team",
+    "questions" : {
+        "Liverpool": "You'll never Walk Alone",
+        "Bayern munich": "Crowd that singing",
+        "Manchester City" : "Blue Moon", 
+        "Chelsea" : "Blue is the Colour", 
+        "Manchester United" : "We'll Never Die"}
+}
