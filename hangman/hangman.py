@@ -4,6 +4,7 @@ Hangman
 import time
 import os
 import json
+clear_screen = lambda: os.system('cls')
 def menu():
     '''
     Hangman game in command line with python !!
@@ -18,7 +19,7 @@ def menu():
     directory_category = []
     category_list = []
     chosen_category = 0
-    clear_screen = lambda: os.system('cls')
+
     #Setup menu
     for x in os.listdir('category'):
         directory_category.append("category/" + x)
@@ -26,6 +27,7 @@ def menu():
         json_file = json.loads(file)
         print(json_file["name"])
         category_list.append(json_file["name"])
+
     #Choose category
     category_list_len = len(category_list)
     print("Select Category:")
@@ -42,11 +44,14 @@ def menu():
             print("It not have this menu please try again")
             chosen_category = 0
     print("You choose", category_list[chosen_category-1])
-    print("Have fun with hangman, please wait")
-    time.sleep(1)
+    print("Have fun with hangman, please wait", end="", flush=True)
+    for _ in range(0,3):
+        print(".", end="", flush=True)
+        time.sleep(1)
+    print("")
     clear_screen()
+    #Play game
     play(directory_category[chosen_category-1])
-
 
 def play(category):
     '''
@@ -115,7 +120,13 @@ def play(category):
             try:
                 user_answer.index("_")
             except:
+                print("Your pass !! please wait to next level", end="", flush=True)
+                for _ in range(0,3):
+                    print(".", end="", flush=True)
+                    time.sleep(1)
                 item += 1
+                print("")
+                clear_screen()
                 break
 
     print("You win %d score in %s category. Thank you for play this I hope you will play another category." % (score, json_file["name"]))

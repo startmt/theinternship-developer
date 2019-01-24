@@ -20,4 +20,5 @@ $ python3 hangman.py
   - phone : +66647972333
 ## Reference
   - how to get directory file https://stackoverflow.com/questions/3207219/how-do-i-list-all-files-of-a-directory
-  - read json file https://stackoverflow.com/questions/2835559/parsing-values-from-a-json-file
+  - how to read json file https://stackoverflow.com/questions/2835559/parsing-values-from-a-json-file
+  - how to clear Screen https://stackoverflow.com/questions/1432480/any-way-to-clear-pythons-idle-window
