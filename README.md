@@ -1,1 +1,3 @@
-# theinternship-developer
+# Theinternship Developer
+
+## Contact
