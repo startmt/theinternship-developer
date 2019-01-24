@@ -11,11 +11,11 @@ $ pip3 install xmltodict
  
 for Windows
 ```zsh
-$ py -3 hangman.py
+$ py -3 weather.py
 ```
 for Mac and linux
 ```zsh
-$ python3 hangman.py
+$ python3 weather.py
 ```
 ## Contact
   - ชื่อ : ชาญศิลป์ ทองคำ
